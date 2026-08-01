@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Nova Store</title>
+
+    <link rel="stylesheet" href="Css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <section class="checkout">
+
+        <div class="section-title">
+
+            <span>Checkout</span>
+
+            <h2>Complete Your Order</h2>
+
+        </div>
+
+
+        <form id="checkout-form">
+
+
+            <input type="text" id="name" placeholder="Full Name">
+
+
+            <input type="tel" id="phone" placeholder="Phone Number">
+
+
+            <textarea id="address" placeholder="Your Address">
+        </textarea>
+
+
+
+            <h3>Payment Method</h3>
+
+
+            <label>
+
+                <input type="radio" name="payment" value="Cash" checked>
+
+                Cash On Delivery
+
+            </label>
+
+
+            <label>
+
+                <input type="radio" name="payment" value="Card">
+
+                Credit Card
+
+            </label>
+
+
+
+            <label class="agree">
+
+                <input type="checkbox" id="agree">
+
+                I agree to the terms and conditions
+
+            </label>
+
+
+
+            <button class="buy-btn" type="submit">
+
+                Confirm Order
+
+            </button>
+
+
+        </form>
+        <div class="success-message" id="success-message">
+
+
+            <div class="success-box">
+
+
+                <h2>🎉 Order Confirmed</h2>
+
+
+                <p>
+                    Your order has been placed successfully.
+                </p>
+
+
+                <button id="close-success">
+                    OK
+                </button>
+
+
+            </div>
+
+
+        </div>
+        <div class="error-message" id="error-message">
+
+
+            <div class="error-box">
+
+
+                <h2>❌ Order Failed</h2>
+
+
+                <p>
+                    Please check your information and try again.
+                </p>
+
+
+                <button id="close-error">
+                    OK
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <script src="Js/scritp.js"></script>
+
+
+</body>
+
+</html>

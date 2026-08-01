@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Nova Store</title>
+
+    <link rel="stylesheet" href="Css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Nova Store
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="products.html" class="active">Products</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <div class="nav-icons">
+
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+
+                <div class="cart-icon">
+
+                    <a href="cart.html">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        <span id="cart-count">0</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <section class="page-title">
+
+        <h1>Our Products</h1>
+
+        <p>
+
+            Explore our latest electronic devices.
+
+        </p>
+
+    </section>
+    <section class="search-section">
+
+        <input type="text" placeholder="Search products..." id="search-box">
+
+    </section>
+    <section class="filter-section">
+
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="laptop">Laptops</button>
+
+        <button class="filter-btn" data-filter="phone">Phones</button>
+
+        <button class="filter-btn" data-filter="watch">Watches</button>
+
+        <button class="filter-btn" data-filter="accessory">Accessories</button>
+
+    </section>
+    <section class="products">
+
+        <div class="products-grid">
+
+            <div class="product-card" data-name="gaming laptop" data-catagory="laptop" data-price="999"
+                data-image="Images/lap g.jpg">
+
+                <img src="Images/lap g.jpg" alt="laptop">
+
+                <h3>Gaming Laptop</h3>
+
+                <p>$999</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="phone" data-catagory="phone" data-price="1199"
+                data-image="Images/16 pro.jpg">
+
+                <img src="Images/16 pro.jpg" alt="phone">
+
+                <h3>iPhone 16 Pro</h3>
+
+                <p>$1199</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="wireless headphone" data-catagory="accessory" data-price="149"
+                data-image="Images/headphone.jpg">
+
+                <img src="Images/headphone.jpg" alt="Headphones">
+
+                <h3>Wireless Headphones</h3>
+
+                <p>$149</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="smart watch" data-catagory="watch" data-price="199"
+                data-image="Images/smart w.jpg">
+
+                <img src="Images/smart w.jpg" alt="Watch">
+
+                <h3>Smart Watch</h3>
+
+                <p>$199</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="tablet" data-catagory="tablet" data-price="499"
+                data-image="Images/tablet.jpg">
+
+                <img src="Images/tablet.jpg" alt="Tablet">
+
+                <h3>Tablet Pro</h3>
+
+                <p>$499</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="bluetooth speaker" data-catagory="accessory" data-price="89"
+                data-image="Images/speaker.jpg">
+
+                <img src="Images/speaker.jpg" alt="Speaker">
+
+                <h3>Bluetooth Speaker</h3>
+
+                <p>$89</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="mechanical keyboard" data-catagory="accessory" data-price="129"
+                data-image="Images/keyboard.jpg">
+
+                <img src="Images/Keyboard.jpg" alt="Keyboard">
+
+                <h3>Mechanical Keyboard</h3>
+
+                <p>$129</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+            <div class="product-card" data-name="gaming mouse" data-catagory="accessory" data-price="79"
+                data-image="Images/mouse.jpg">
+
+                <img src="Images/mouse.jpg" alt="Mouse">
+
+                <h3>Gaming Mouse</h3>
+
+                <p>$79</p>
+
+                <button class="buy-btn add-cart">Add To Cart</button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-box">
+
+                <h3>Nova Store</h3>
+
+                <p>
+                    Your trusted destination for the latest electronics
+                    with the best prices and premium quality.
+                </p>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="products.html">Products</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-box">
+
+                <h3>Contact</h3>
+
+                <p>Email: info@novastore.com</p>
+
+                <p>Phone: +20 100 000 0000</p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+
+            © 2026 Nova Store | All Rights Reserved | Generated by : Hamed Musa
+
+        </p>
+
+    </footer>
+    <script src="Js/scritp.js"></script>
+</body>
+
+</html>
