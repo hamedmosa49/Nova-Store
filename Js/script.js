@@ -155,7 +155,8 @@ if (cartContainer) {
     cart.forEach((item, index) => {
 
 
-        total += Number(item.price);
+        total += Number(item.price)*
+        item.quantity;
 
 
         cartContainer.innerHTML += `
